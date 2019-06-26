@@ -1,8 +1,16 @@
 import React, {Component} from 'react';
+
+/*
+If you are using App.js as a class based component you must import Component
+and change `function App(){}` to `class App extends Component`. It is best 
+to keep App.js as a functional component that simply displays other 
+components but as you're getting started do what you're most comfortable with.
+*/
+
 import logo from './logo.svg';
 import './App.css';
 
-import axios from 'axios';
+import axios from 'axios'; // axios is a helper library for making HTTP requests
 
  class App extends Component {
    constructor(){
